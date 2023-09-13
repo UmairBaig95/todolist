@@ -1,0 +1,54 @@
+.addTask
+{
+    width: 25rem;
+    background-color: #64B5F6;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.addIcon
+{
+    width: 2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem !important;
+    color: white;
+    cursor: pointer;
+}
+
+.taskClass
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.delIcon
+{
+    width: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.3rem !important;
+    color: black;
+    cursor: pointer;
+}
+.delIcon svg:first-of-type:hover 
+{
+  fill: red;
+
+}
+.delIcon svg:last-of-type:hover 
+{
+  fill: green;
+}
+.taskAssign
+{
+    width: 25rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.taskDiv
+{
+    width: 10rem;
+    overflow-wrap: break-word;
+}
